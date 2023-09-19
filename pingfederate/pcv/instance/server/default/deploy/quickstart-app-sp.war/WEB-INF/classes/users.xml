@@ -1,0 +1,23 @@
+<users xmlns="urn:sourceid:saml2:demo:users">
+    <user>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <email-address>john@example.com</email-address>
+        <user-id>johndoe</user-id>
+        <password>test</password>
+    </user>
+    <user>
+        <first-name>Jane</first-name>
+        <last-name>Doe</last-name>
+        <email-address>jane@example.com</email-address>
+        <user-id>janedoe</user-id>
+        <password>test</password>
+    </user>
+    <user>
+        <first-name>Joey</first-name>
+        <last-name>Smith</last-name>
+        <email-address>joe@example.com</email-address>
+        <user-id>joe123</user-id>
+        <password>test</password>
+    </user>
+</users>

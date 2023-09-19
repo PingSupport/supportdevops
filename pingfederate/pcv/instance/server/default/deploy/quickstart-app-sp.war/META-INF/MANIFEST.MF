@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ci
+Build-Jdk: 1.6.0_22
+Extension-Name: demo-app-sp
+Implementation-Title: demo-app-sp
+Implementation-Version: 6.5.0.105-SNAPSHOT
+Hudson-Build-Number: 3433
+Hudson-Project: HuronPeak
+Hudson-Version: 1.355
+

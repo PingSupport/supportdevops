@@ -1,0 +1,15 @@
+  pingfederate:
+    image: pingidentity/pingfederate:latest
+    environment:
+#      - SERVER_PROFILE_URL=https://github.com/pingidentity/pingidentity-server-profiles.git
+#      - SERVER_PROFILE_PATH=getting-started/pingfederate
+      - PING_IDENTITY_ACCEPT_EULA=YES
+      - BASE_URL=localhost
+    env_file:
+      - ~/.pingidentity/devops
+    volumes:
+     - ${HOME}/supportdevops/pingfederate/pcv:/opt/in
+#    - ${HOME}/profiles/devops/pingfederate:/opt/out
+    ports:
+      - 9031:9031
+      - 9999:9999

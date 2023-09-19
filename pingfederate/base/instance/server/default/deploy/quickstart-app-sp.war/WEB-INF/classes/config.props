@@ -1,0 +1,51 @@
+# This file contains configuration properties that instruct this web application 
+# how to connect with the PingFederate server
+
+# the host name of the server where PingFederate is running
+pf.hostname=localhost
+
+# the HTTP port of PingFederate
+pf.http.port=9030
+
+# the HTTPS port of PingFederate
+pf.https.port=9031
+
+# this port is used for backchannel communication if it is defined and pf.use.ssl=true
+# pf.secondary.https.port=9032
+
+# use HTTPS for PF
+pf.use.ssl=true
+
+# When calling into PingFederate via HTTPS, should the application skip host 
+# name validation against the presented SSL server certificate's subject CN 
+pf.skip.hostname.validation=true
+
+# The user name and pass phrase that this application uses to authenticate to the
+# adapter integration endpoints
+pf.adapter.uname=changeme
+pf.adapter.pass=please change me before you go into production!
+
+# The instance id of the SP Adapter
+pf.adapter.instanceId=spadapter
+
+# Attribute Serializer (JSON or Properties). Must match the deserializer configured in 
+# adapter
+app.serializer=JSON
+
+# Attribute Desrializer (JSON or Query Parameter). Must match the serializer configured in 
+# adapter
+app.deserializer=JSON
+
+# Uncomment the following two properties to enable client certificate authentication
+# pf.client.keystore.path=c:/path/client.p12
+# pf.client.keystore.pass=password
+
+# The user name and password this application uses to authenticate to the web
+# service hosted in PingFederate. This web service enables the application to 
+# dynamically determine available partner connections (the partner drop down
+# lists are populated this way)
+pf.web.service.uname=heuristics
+pf.web.service.pwd=Changeme1
+
+#
+pf.web.service.use.ssl=true

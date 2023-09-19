@@ -1,0 +1,74 @@
+﻿<users xmlns="urn:sourceid:saml2:demo:users">
+    <user>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <email-address>john@example.com</email-address>
+        <user-id>john</user-id>
+        <password>test</password>
+        <attribute name="SSN">341-34-6645</attribute>
+        <attribute name="net worth">$82,580,038.93</attribute>
+        <attribute name="salary">68857</attribute>
+    </user>
+    <user>
+        <first-name>Joe</first-name>
+        <last-name>Smith</last-name>
+        <email-address>joe@example.com</email-address>
+        <user-id>joe</user-id>
+        <password>test</password>
+        <attribute name="SSN">123-45-6789</attribute>
+        <attribute name="net worth">$38.26</attribute>
+        <attribute name="salary">18500</attribute>
+    </user>
+    <user>
+        <first-name>Herbert</first-name>
+        <last-name>Kornfeld</last-name>
+        <email-address>hkornfeld@example.com</email-address>
+        <user-id>herb</user-id>
+        <password>test</password>
+        <attribute name="SSN">999-66-9861</attribute>
+        <attribute name="net worth">$7,933,120.98</attribute>
+        <attribute name="salary">800</attribute>
+    </user>
+    <user>
+        <first-name>L.T.</first-name>
+        <last-name>Scott</last-name>
+        <email-address>lts@example.com</email-address>
+        <user-id>LT</user-id>
+        <password>test</password>
+        <attribute name="SSN">998-34-0731</attribute>
+        <attribute name="net worth">$100,024.14</attribute>
+        <attribute name="salary">247000</attribute>
+    </user>
+    <user>
+        <first-name>Hailie</first-name>
+        <last-name>Nebraska</last-name>
+        <email-address>princess@example.com</email-address>
+        <user-id>hailie</user-id>
+        <password>test</password>
+        <attribute name="SSN">948-23-1265</attribute>
+        <attribute name="net worth">$0</attribute>
+        <attribute name="salary">0</attribute>
+    </user>
+    <user>
+        <first-name>Bowen</first-name>
+        <last-name>Aurora</last-name>
+        <email-address>goofy@example.com</email-address>
+        <user-id>bo</user-id>
+        <password>test</password>
+        <attribute name="SSN">992-22-0731</attribute>
+        <attribute name="net worth">$0</attribute>
+        <attribute name="salary">680</attribute>
+    </user>
+
+    <user>
+        <first-name>国平</first-name>
+        <last-name>刘</last-name>
+        <email-address>gl@ping.com</email-address>
+        <user-id>GL</user-id>
+        <password>test</password>
+        <attribute name="SSN">992-22-0731</attribute>
+        <attribute name="net worth">$0</attribute>
+        <attribute name="salary">680</attribute>
+    </user>
+
+</users>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <context-param>
+        <param-name>idpapplink</param-name>
+        <param-value>/quickstart-app-idp/go</param-value>
+    </context-param>
+
+    <filter>
+        <filter-name>pickup-filter</filter-name>
+        <filter-class>org.sourceid.pfdemo.shared.PickUpFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>gsa-test-filter</filter-name>
+        <filter-class>org.sourceid.pfdemo.sp.servlet.GsaTestLevelFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>pickup-filter</filter-name>
+        <url-pattern>/go</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>gsa-test-filter</filter-name>
+        <url-pattern>/go</url-pattern>
+    </filter-mapping>
+    
+    <servlet>
+        <display-name>Demo SP App Controller</display-name>
+        <servlet-name>DemoSpAppController</servlet-name>
+        <servlet-class>org.sourceid.pfdemo.sp.servlet.DemoSpAppControllerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DemoSpAppController</servlet-name>
+        <url-pattern>/go</url-pattern>
+    </servlet-mapping>
+
+</web-app>
